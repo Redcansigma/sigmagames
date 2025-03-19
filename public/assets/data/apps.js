@@ -136,10 +136,10 @@ var apps = [
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
     },
     {
-      'id': 'eaglecraft',
-      'title': 'Minecraft',
-      'url': 'https://eaglercraft.com',
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
+      'id': 'gamepix',
+      'title': 'Gamepix',
+      'url': 'https://www.gamepix.com',
+      "image": "https://styles.redditmedia.com/t5_2p5sql/styles/communityIcon_zx54gnanfb151.png"
     },
   ]
   
