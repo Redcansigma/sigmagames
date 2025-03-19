@@ -130,10 +130,10 @@ var apps = [
       "image": "https://roslyngamehub.vercel.app/assets/images/logo.png"
     },
     {
-      'id': 'eaglecraft',
-      'title': 'Minecraft',
-      'url': 'https://classic.minecraft.net/?join=I6EaWPNloD1PGzu4',
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
+      'id': 'chatgpt',
+      'title': 'Chatgpt',
+      'url': 'https://chatgpt.com',
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/120px-ChatGPT-Logo.svg.png"
     },
     {
       'id': 'gamepix',
