@@ -123,6 +123,12 @@ var apps = [
       'url': 'https://www.crazygames.com',
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Crazygames_jpg_logo.jpg/220px-Crazygames_jpg_logo.jpg"
     },
+    {
+      'id': 'poki',
+      'title': 'Poki',
+      'url': 'https://poki.com',
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Poki_logo.svg/220px-Poki_logo.svg.png"
+    },
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))
