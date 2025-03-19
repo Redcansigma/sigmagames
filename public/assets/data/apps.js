@@ -130,10 +130,10 @@ var apps = [
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/130px-Instagram_logo_2022.svg.png"
     },
     {
-      'id': 'snapchat',
-      'title': 'Snapchat',
-      'url': 'https://www.snapchat.com',
-      "image": "https://yt3.googleusercontent.com/3LXX8rQiWxvIFLBcXEw1gNtE_nz6XDW_AdHN4J9zvzQz9u3_6MBPx8WhBeZ0d6uls0yVRMsl=s900-c-k-c0x00ffffff-no-rj"
+      'id': 'eaglecraft',
+      'title': 'Minecraft',
+      'url': 'https://minecraftforfreex.com/eaglercraft/',
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
     },
   ]
   
