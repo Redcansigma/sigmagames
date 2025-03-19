@@ -116,13 +116,13 @@ var apps = [
       'url': 'https://cattn.github.io/gba',
       "image": "https://cattn.github.io/gba/pwa/apple-icon-180.png",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
-    }
+    },
     {
       'id': 'crazygames',
       'title': 'Crazy Games',
       'url': 'https://www.crazygames.com',
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Crazygames_jpg_logo.jpg/220px-Crazygames_jpg_logo.jpg",
-      "description": "Crazy Games"\
+      "description": "Crazy Games"
     }
   ]
   
