@@ -132,7 +132,7 @@ var apps = [
     {
       'id': 'eaglecraft',
       'title': 'Minecraft',
-      'url': 'https://eaglercraft.com',
+      'url': 'https://eaglercraft.com/mc/1.8.8-wasm/',
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
     },
     {
