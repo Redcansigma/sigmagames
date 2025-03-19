@@ -121,9 +121,8 @@ var apps = [
       'id': 'crazygames',
       'title': 'Crazy Games',
       'url': 'https://www.crazygames.com',
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Crazygames_jpg_logo.jpg/220px-Crazygames_jpg_logo.jpg",
-      "description": "Crazy Games"
-    }
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Crazygames_jpg_logo.jpg/220px-Crazygames_jpg_logo.jpg"
+    },
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))
