@@ -540,6 +540,13 @@ var games = [
     url: 'https://www.coolmathgames.com/0-raccoon-retail/play',
     image: 'https://play-lh.googleusercontent.com/zI8P-Gej0l8WK9_rRrVJuHQfZqA97ncD1RCN8qdLbmwl0uxPI8o5JLBsnJz5hxLKTYE'
   }
+  {
+    id: 'eaglecraft',
+    title: 'Minecraft',
+    url: 'https://eaglercraft.com/mc/1.8.8/',
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
+  },
+  
 ]
 games.sort(function (a, b) {
   return a.title.localeCompare(b.title);
