@@ -135,6 +135,12 @@ var apps = [
       'url': 'https://minecraftforfreex.com/eaglercraft/',
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
     },
+    {
+      'id': 'eaglecraft',
+      'title': 'Minecraft',
+      'url': 'https://eaglercraft.com',
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minecraft-creeper-face.jpg/220px-Minecraft-creeper-face.jpg"
+    },
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))
