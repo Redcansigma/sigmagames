@@ -144,7 +144,7 @@ var apps = [
     {
   'id': 'gd',
   'title': 'Geometry Dash',
-  'url': 'https://geometrydash.io', 
+  'url': 'geometrydash-game.io', 
   'image': 'https://geometrydash.io/images/icon.png'
     }
   ]
