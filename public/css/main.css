@@ -1,12 +1,18 @@
 @import url('themes.css');
 @import url('cards.css');
 
+/* --- Color Palette --- */
 :root {
-    --text-color: #e0e0e0;
-    --background: #111;
-    --accent: #1ed5a9;
+    --text-color: #f0f0f0;       /* Light gray text */
+    --background: #0f0f1a;       /* Very dark blue background */
+    --accent: #00f0ff;           /* Bright cyan accent */
+    --accent-hover: #00c2cc;     /* Slightly darker cyan on hover */
+    --secondary-bg: #1a1a2e;     /* Darker panels / inputs */
+    --button-bg: #00f0ff;        /* Primary button color */
+    --button-hover: #00c2cc;     /* Button hover color */
 }
 
+/* --- Global Styles --- */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +31,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Scrollbar */
+/* --- Scrollbar --- */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -34,10 +40,10 @@ body {
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #16a685;
+    background: var(--accent-hover);
 }
 
-/* Headings */
+/* --- Headings --- */
 h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 15px;
@@ -47,15 +53,16 @@ h2 { font-size: 36px; font-weight: 600; }
 h3 { font-size: 28px; font-weight: 500; }
 h1 span {
     color: var(--accent);
+    text-shadow: 0 0 8px var(--accent);
 }
 
-/* Paragraphs */
+/* --- Paragraphs --- */
 p {
     font-size: 18px;
     line-height: 1.6;
 }
 
-/* Centered container */
+/* --- Centered container --- */
 .center-container {
     position: absolute;
     left: 50%;
@@ -64,7 +71,7 @@ p {
     text-align: center;
 }
 
-/* Links */
+/* --- Links --- */
 a, a:visited {
     color: var(--accent);
     text-decoration: none;
@@ -75,12 +82,12 @@ a:hover {
     filter: brightness(120%);
 }
 
-/* Buttons */
+/* --- Buttons --- */
 button {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: var(--background);
-    background-color: var(--accent);
+    background-color: var(--button-bg);
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
@@ -89,14 +96,13 @@ button {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 button:hover {
-    filter: brightness(90%);
+    background-color: var(--button-hover);
     transform: scale(1.05);
-    transition: all 0.2s ease;
 }
 
-/* Secondary buttons */
+/* --- Secondary buttons --- */
 button.secondary {
-    background-color: #222;
+    background-color: var(--secondary-bg);
     color: var(--accent);
     font-weight: 600;
     display: flex;
@@ -108,9 +114,10 @@ button.secondary img {
     height: 25px;
     width: 25px;
     border-radius: 5px;
+    filter: brightness(1.2);
 }
 
-/* Links container */
+/* --- Links container --- */
 .links {
     position: fixed;
     bottom: 0;
@@ -131,7 +138,7 @@ button.secondary img {
     align-items: center;
 }
 
-/* Game container */
+/* --- Game container --- */
 .gamecontainer {
     height: calc(100vh - 100px);
     display: flex;
@@ -142,7 +149,7 @@ button.secondary img {
     flex-wrap: wrap;
 }
 
-/* Game info panel */
+/* --- Game info panel --- */
 #gameInfo {
     width: 25%;
     min-width: 250px;
@@ -152,7 +159,7 @@ button.secondary img {
     flex-direction: column;
     justify-content: space-between;
     padding: 15px;
-    background: #1a1a1a;
+    background: var(--secondary-bg);
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
@@ -182,17 +189,19 @@ button.secondary img {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background-color: #222;
+    background-color: var(--secondary-bg);
     color: var(--accent);
     border: 2px solid var(--accent);
     opacity: 0.8;
 }
 #menubtns button:hover {
     opacity: 1;
+    background-color: var(--accent-hover);
+    color: var(--background);
     transform: scale(1.2);
 }
 
-/* Game frame */
+/* --- Game frame --- */
 #frame {
     width: 70%;
     min-width: 300px;
@@ -202,10 +211,10 @@ button.secondary img {
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-/* Inputs */
+/* --- Inputs --- */
 input[type=text], select, #search {
-    background-color: #222;
-    color: white;
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
     border: none;
     border-radius: 6px;
     padding: 10px 15px;
@@ -216,7 +225,7 @@ input[type=text]:focus, select:focus, #search:focus {
     outline: 2px solid var(--accent);
 }
 
-/* Frames & Ads */
+/* --- Frames & Ads --- */
 .frame {
     width: calc(100vw - 30px);
     height: calc(100vh - 80px);
@@ -231,7 +240,7 @@ input[type=text]:focus, select:focus, #search:focus {
     margin: 10px auto;
 }
 
-/* Responsive adjustments */
+/* --- Responsive adjustments --- */
 @media (max-width: 900px) {
     .gamecontainer { flex-direction: column; height: auto; }
     #gameInfo, #frame { width: 90%; }
