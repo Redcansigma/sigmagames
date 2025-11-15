@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sigma Class</title>
 
-  <link rel="stylesheet" href="./css/master.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/master.css" />
+  <link rel="stylesheet" href="./css/game.css" /> <!-- Your dark/neon game CSS -->
+
+  <!-- Scripts -->
   <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
   <script src="/uv/uv.config.js"></script>
   <script src="./js/preload.js"></script>
-  
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 </head>
 
 <body theme="main">
+
+  <!-- --- Navbar --- -->
   <nav>
     <div class="logo">
       <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
@@ -32,8 +40,12 @@
     </div>
   </nav>
 
+  <!-- --- Main Game Container --- -->
   <div class="gamecontainer">
-    <iframe allowfullscreen frameborder="0" id="frame"></iframe>
+    <!-- Game iframe -->
+    <iframe id="frame" allowfullscreen frameborder="0"></iframe>
+
+    <!-- Game Info Panel -->
     <div id="gameInfo">
       <div class="gameHeader">
         <img id="gameImage" alt="icon" />
@@ -43,7 +55,7 @@
 
       <div id="menubtns">
         <a href="./gs.html">
-          <button onclick="window.location.href = '/'">
+          <button onclick="window.location.href='/'">
             <i class="fas fa-arrow-left"></i>
           </button>
         </a>
@@ -56,17 +68,18 @@
       </div>
     </div>
   </div>
+
+  <!-- --- Scripts --- -->
+  <script src="./js/index.js"></script>
+  <script src="./assets/data/games.js"></script>
+  <script src="./assets/data/apps.js"></script>
+  <script src="./js/load.js"></script>
+
+  <script type="text/javascript">
+      aclib.runAutoTag({
+          zoneId: '6hmeyutild',
+      });
+  </script>
+
 </body>
-
-<script src="./js/index.js"></script>
-<script src="./assets/data/games.js"></script>
-<script src="./assets/data/apps.js"></script>
-<script src="./js/load.js"></script>
-
-<script type="text/javascript">
-    aclib.runAutoTag({
-        zoneId: '6hmeyutild',
-    });
-</script>
-
 </html>
