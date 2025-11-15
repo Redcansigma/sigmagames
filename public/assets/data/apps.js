@@ -141,6 +141,12 @@ var apps = [
       'url': 'https://www.gamepix.com',
       "image": "https://styles.redditmedia.com/t5_2p5sql/styles/communityIcon_zx54gnanfb151.png"
     },
+    {
+  'id': 'gd',
+  'title': 'Geometry Dash',
+  'url': 'https://geometrydash.io', 
+  'image': 'https://geometrydash.io/images/icon.png'
+    }
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))
